@@ -11,10 +11,8 @@ const Nav = () => {
   return (
     <div className="w-full fixed top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div
-          className="font-bold text-3xl cursor-pointer flex items-center font-[Poppins] 
-      text-gray-800">
-          Designer
+        <div className="font-bold text-3xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
+          Shortly
         </div>
         <div
           onClick={() => setOpen(!open)}
