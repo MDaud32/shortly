@@ -2,6 +2,12 @@ import React from 'react';
 import brandRecognition from '../images/icon-brand-recognition.svg';
 import customizable from '../images/icon-fully-customizable.svg';
 import records from '../images/icon-detailed-records.svg';
+import {
+  ImTwitter,
+  ImFacebook,
+  ImPinterest2,
+  ImInstagram,
+} from 'react-icons/im';
 
 const StatPage = () => {
   return (
@@ -64,6 +70,74 @@ const StatPage = () => {
               Improve brand awareness and content discoverability through
               customizable links, supercharging audience engagement.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="cta py-24 bg-violet-900">
+        <div className="flex flex-col p-2 space-y-6">
+          <h5 className="mx-auto space-y-10 text-4xl font-bold text-center text-white">
+            Boost your links today
+          </h5>
+          <button className="px-10 py-5 mx-auto rounded-full bg-cyan-700 hover:bg-cyan-800 text-white font-bold md:text-base md:py-3 focus:outline-none">
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div className="bg-black text-white flex flex-col md:flex-row justify-around px-16 py-16">
+        <div className="flex flex-col text-center ">
+          <div className="font-bold text-3xl cursor-pointer flex items-center font-[Poppins] text-white text-center mx-auto md:mx-0 mb-4">
+            Shortly
+          </div>
+          <div className="font-alata md:flex md:space-x-8 space-y-6 md:space-y-0 text-white">
+            <div className="group">
+              <a href="" className="">
+                About
+              </a>
+              <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+            <div className="group">
+              <a href="" className="">
+                Careers
+              </a>
+              <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+            <div className="group">
+              <a href="" className="">
+                Events
+              </a>
+              <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+            <div className="group">
+              <a href="" className="">
+                Products
+              </a>
+              <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+            <div className="group">
+              <a href="" className="">
+                Suppots
+              </a>
+              <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="flex flex-row text-white text-3xl gap-4 mx-auto mt-8 md:mt-0">
+            <div className="">
+              <ImPinterest2 />
+            </div>
+            <div className="">
+              <ImTwitter />
+            </div>
+            <div className="">
+              <ImInstagram />
+            </div>
+            <div className="">
+              <ImFacebook />
+            </div>
+          </div>
+          <div className="mt-6 text-gray-300 text-center">
+            @2022 Shortly. All Rights Reserved
           </div>
         </div>
       </div>
