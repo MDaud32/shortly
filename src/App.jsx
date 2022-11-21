@@ -1,6 +1,7 @@
 import Nav from './components/Nav';
 import HeroSection from './components/HeroSection';
 import LinkPage from './components/LinkPage';
+import StatPage from './components/StatPage';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <HeroSection />
       <LinkPage />
+      <StatPage />
     </div>
   );
 }
